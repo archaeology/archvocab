@@ -1,0 +1,43 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/context/public">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://archvocab.net/excavation/ontology/context/contextType"/>
+    <skos:prefLabel>Public</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/context/contextType">
+    <skos:prefLabel>Concept Scheme</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/context/dump">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://archvocab.net/excavation/ontology/context/contextType"/>
+    <skos:prefLabel>Dump</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/context/funerary">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://archvocab.net/excavation/ontology/context/contextType"/>
+    <skos:prefLabel>Funerary</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/context/domestic">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://archvocab.net/excavation/ontology/context/contextType"/>
+    <skos:prefLabel>Domestic</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/context/transport">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://archvocab.net/excavation/ontology/context/contextType"/>
+    <skos:prefLabel>Transport</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/context/construction">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://archvocab.net/excavation/ontology/context/contextType"/>
+    <skos:prefLabel>Construction</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/context/commercial">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://archvocab.net/excavation/ontology/context/contextType"/>
+    <skos:prefLabel>Commercial</skos:prefLabel>
+  </rdf:Description>
+</rdf:RDF>
