@@ -1,0 +1,129 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.heml.org/rdf/2003-09-17/heml#TerminusPostQuem">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:domain rdf:resource="http://archvocab.net/excavation/ontology/Context"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/hasQuantityWeight">
+    <rdfs:subPropertyOf rdf:resource="http://archvocab.net/excavation/ontology/hasQuantity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:domain rdf:resource="http://archvocab.net/excavation/ontology/Find"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>hasQuantityWeight</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/Excavation">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label>Excavation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/ofType">
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:domain rdf:resource="http://archvocab.net/excavation/ontology/Context"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>ofType</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/hasQuantityNMI">
+    <rdfs:subPropertyOf rdf:resource="http://archvocab.net/excavation/ontology/hasQuantity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:domain rdf:resource="http://archvocab.net/excavation/ontology/Find"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>hasQuantityNMI</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/hasQuantityCount">
+    <rdfs:subPropertyOf rdf:resource="http://archvocab.net/excavation/ontology/hasQuantity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:domain rdf:resource="http://archvocab.net/excavation/ontology/Find"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>hasQuantityCount</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/Context">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label>Context</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/ofMaterial">
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:domain rdf:resource="http://archvocab.net/excavation/ontology/Find"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>ofMaterial</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/hasArea">
+    <rdfs:domain rdf:resource="http://archvocab.net/excavation/ontology/Excavation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:domain rdf:resource="http://archvocab.net/excavation/ontology/Context"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>hasArea</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/inExcavation">
+    <rdfs:range rdf:resource="http://archvocab.net/excavation/ontology/Excavation"/>
+    <rdfs:domain rdf:resource="http://archvocab.net/excavation/ontology/Context"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>inExcavation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/uncertain">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:domain rdf:resource="http://archvocab.net/excavation/ontology/Find"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>uncertain</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/hasQuantity">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:domain rdf:resource="http://archvocab.net/excavation/ontology/Find"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>hasQuantity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/Find">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label>Find</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/ofForm">
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:domain rdf:resource="http://archvocab.net/excavation/ontology/Find"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>ofForm</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/innerTAQ">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:domain rdf:resource="http://archvocab.net/excavation/ontology/Context"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>innerTAQ</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.heml.org/rdf/2003-09-17/heml#locationRef">
+    <rdfs:label>locationRef</rdfs:label>
+    <rdfs:domain rdf:resource="http://archvocab.net/excavation/ontology/Excavation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/ofForm_label">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:domain rdf:resource="http://archvocab.net/excavation/ontology/Find"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>ofForm_label</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.heml.org/rdf/2003-09-17/heml#TerminusAnteQuem">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:domain rdf:resource="http://archvocab.net/excavation/ontology/Context"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/hasQuantityEVE">
+    <rdfs:subPropertyOf rdf:resource="http://archvocab.net/excavation/ontology/hasQuantity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:domain rdf:resource="http://archvocab.net/excavation/ontology/Find"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>hasQuantityEVE</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/ofMaterial_label">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:domain rdf:resource="http://archvocab.net/excavation/ontology/Find"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>ofMaterial_label</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/inContext">
+    <rdfs:range rdf:resource="http://archvocab.net/excavation/ontology/Context"/>
+    <rdfs:domain rdf:resource="http://archvocab.net/excavation/ontology/Find"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>inContext</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://archvocab.net/excavation/ontology/innerTPQ">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:domain rdf:resource="http://archvocab.net/excavation/ontology/Context"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>innerTPQ</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
